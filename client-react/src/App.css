@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  /* font-family: 'PT Sans', sans-serif;  */
+}
+
+/* Header Component*/
+.main-box {
+  display: flex;
+  /* padding: 20px; */
+  background-color: #000000;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.test {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-box {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+  /* height: 40px; */
+}
+/* default has margin value */
+ul {
+  margin: 0;
+}
+
+.nav-box {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  /* height: 30px; */
+}
+
+.nav-bar {
+  /* align-self: flex-end; */
+  list-style-type: none;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.714;
+  color: white;
+  text-align: center;
+  text-indent: 10px;
+  /* overflow: hidden; */
+  padding-right: 30px;
+}
+
+li:hover {
+  /* background-color: white; */
+  cursor: pointer;
+  color: black;
+}
+/* Header Component Ends */
+
+/* Home from backend */
+
+.post-container {
+  display: flex;
+  flex-flow: column;
+  border: 1.5px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  /* width: 100%; */
+}
+
+.likes-dislikes-count {
+  display: flex;
+}
+
+.likes-dislikes-count > p {
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  margin-right: 10px;
+}
+.likes-dislikes-count > p:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #000000;
+}
+
+.comment-input {
+  height: 75px;
+  width: 300px;
+}
+
+/* Home */
+
+/*Register*/
+.register-box {
+  padding: 100px 0;
+}
+
+div > form {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+form > label {
+  padding: 0 0 20px 0;
+}
+
+form > button {
+  width: 300px;
+  height: 40px;
+  border: 1.5px solid #000000;
+  background-color: #000000;
+  color: white;
+}
+
+form > button:hover {
+  cursor: pointer;
+  border: 1.5px solid #000000;
+  background-color: white;
+  color: black;
+}
+
+form > label > input {
+  padding: 0 0 0 10px;
+  width: 300px;
+  height: 40px;
+}
+/*Register ends*/
